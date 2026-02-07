@@ -1,0 +1,14 @@
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\bin\Debug\net8.0\ComputerAverageApp.exe
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\bin\Debug\net8.0\ComputerAverageApp.deps.json
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\bin\Debug\net8.0\ComputerAverageApp.runtimeconfig.json
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\bin\Debug\net8.0\ComputerAverageApp.dll
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\bin\Debug\net8.0\ComputerAverageApp.pdb
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\obj\Debug\net8.0\ComputerAverageApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\obj\Debug\net8.0\ComputerAverageApp.AssemblyInfoInputs.cache
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\obj\Debug\net8.0\ComputerAverageApp.AssemblyInfo.cs
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\obj\Debug\net8.0\ComputerAverageApp.csproj.CoreCompileInputs.cache
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\obj\Debug\net8.0\ComputerAverageApp.dll
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\obj\Debug\net8.0\refint\ComputerAverageApp.dll
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\obj\Debug\net8.0\ComputerAverageApp.pdb
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\obj\Debug\net8.0\ComputerAverageApp.genruntimeconfig.cache
+C:\Users\enriquez.287395\source\repos\ComputerAverageApp\ComputerAverageApp\obj\Debug\net8.0\ref\ComputerAverageApp.dll

@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections;
 using System.Windows.Forms;
 
 namespace StudentRegistrationApplication
@@ -17,13 +11,14 @@ namespace StudentRegistrationApplication
             InitializeComponent();
         }
 
-        // Form Load event - populate the combo boxes using loops
+        // Form Load event - populate the combo boxes
         private void frmStudentRegistration_Load(object sender, EventArgs e)
         {
-            // Add default placeholder items first
+            // Add default placeholder items
             cmbDay.Items.Add("-Day-");
             cmbMonth.Items.Add("-Month-");
             cmbYear.Items.Add("-Year-");
+            cmbProgram.Items.Add("-Select program-");
 
             // Use a loop to add days 1 to 31
             for (int day = 1; day <= 31; day++)
@@ -31,8 +26,13 @@ namespace StudentRegistrationApplication
                 cmbDay.Items.Add(day);
             }
 
-            // Use a loop to add months 1 to 12
-            for (int month = 1; month <= 12; month++)
+            // Create a string array that contains the 12 months of the year
+            string[] months = { "January", "February", "March", "April",
+                                "May", "June", "July", "August",
+                                "September", "October", "November", "December" };
+
+            // Use a foreach loop to add the months to the Month combo box
+            foreach (string month in months)
             {
                 cmbMonth.Items.Add(month);
             }
@@ -44,10 +44,24 @@ namespace StudentRegistrationApplication
                 cmbYear.Items.Add(year);
             }
 
+            // Create an ArrayList that contains the list of programs
+            ArrayList programs = new ArrayList();
+            programs.Add("Bachelor of Science in Computer Science");
+            programs.Add("Bachelor of Science in Information Technology");
+            programs.Add("Bachelor of Science in Information Systems");
+            programs.Add("Bachelor of Science in Computer Engineering");
+
+            // Use a foreach loop to add the programs to the Program combo box
+            foreach (string program in programs)
+            {
+                cmbProgram.Items.Add(program);
+            }
+
             // Set default selection to the placeholder text
             cmbDay.SelectedIndex = 0;
             cmbMonth.SelectedIndex = 0;
             cmbYear.SelectedIndex = 0;
+            cmbProgram.SelectedIndex = 0;
         }
 
         // Button click event - validate inputs and display the message box
@@ -80,7 +94,7 @@ namespace StudentRegistrationApplication
                 return;
             }
 
-            // Validate that a gender is selected using a decision statement
+            // Validate that a gender is selected
             if (!rbMale.Checked && !rbFemale.Checked)
             {
                 MessageBox.Show("Please select a gender.",
@@ -88,7 +102,7 @@ namespace StudentRegistrationApplication
                 return;
             }
 
-            // Validate that the user selected a day (not the placeholder)
+            // Validate that the user selected a day
             if (cmbDay.SelectedIndex == 0)
             {
                 MessageBox.Show("Please select a day.",
@@ -96,7 +110,7 @@ namespace StudentRegistrationApplication
                 return;
             }
 
-            // Validate that the user selected a month (not the placeholder)
+            // Validate that the user selected a month
             if (cmbMonth.SelectedIndex == 0)
             {
                 MessageBox.Show("Please select a month.",
@@ -104,10 +118,18 @@ namespace StudentRegistrationApplication
                 return;
             }
 
-            // Validate that the user selected a year (not the placeholder)
+            // Validate that the user selected a year
             if (cmbYear.SelectedIndex == 0)
             {
                 MessageBox.Show("Please select a year.",
+                    "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Validate that the user selected a program
+            if (cmbProgram.SelectedIndex == 0)
+            {
+                MessageBox.Show("Please select a program.",
                     "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
@@ -116,6 +138,7 @@ namespace StudentRegistrationApplication
             string day = cmbDay.SelectedItem.ToString();
             string month = cmbMonth.SelectedItem.ToString();
             string year = cmbYear.SelectedItem.ToString();
+            string program = cmbProgram.SelectedItem.ToString();
 
             // Determine the gender using a decision statement
             string gender = "";
@@ -137,7 +160,8 @@ namespace StudentRegistrationApplication
             // Display the student information in a message box
             string message = "Student name: " + fullName + "\n"
                            + "Gender: " + gender + "\n"
-                           + "Date of birth: " + dateOfBirth;
+                           + "Date of birth: " + dateOfBirth + "\n"
+                           + "Program: " + program;
 
             MessageBox.Show(message);
         }

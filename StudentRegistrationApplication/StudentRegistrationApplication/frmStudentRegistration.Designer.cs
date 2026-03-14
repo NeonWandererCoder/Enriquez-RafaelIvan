@@ -44,6 +44,8 @@
             this.lblDateOfBirth = new System.Windows.Forms.Label();
             this.btnRegister = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.lblProgram = new System.Windows.Forms.Label();
+            this.cmbProgram = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -59,7 +61,7 @@
             // lblLastName
             // 
             this.lblLastName.AutoSize = true;
-            this.lblLastName.Location = new System.Drawing.Point(48, 96);
+            this.lblLastName.Location = new System.Drawing.Point(55, 79);
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(65, 13);
             this.lblLastName.TabIndex = 1;
@@ -68,7 +70,7 @@
             // lblFirstName
             // 
             this.lblFirstName.AutoSize = true;
-            this.lblFirstName.Location = new System.Drawing.Point(48, 180);
+            this.lblFirstName.Location = new System.Drawing.Point(55, 132);
             this.lblFirstName.Name = "lblFirstName";
             this.lblFirstName.Size = new System.Drawing.Size(64, 13);
             this.lblFirstName.TabIndex = 2;
@@ -77,7 +79,7 @@
             // lblMiddleName
             // 
             this.lblMiddleName.AutoSize = true;
-            this.lblMiddleName.Location = new System.Drawing.Point(48, 263);
+            this.lblMiddleName.Location = new System.Drawing.Point(55, 188);
             this.lblMiddleName.Name = "lblMiddleName";
             this.lblMiddleName.Size = new System.Drawing.Size(76, 13);
             this.lblMiddleName.TabIndex = 3;
@@ -86,7 +88,7 @@
             // lblGender
             // 
             this.lblGender.AutoSize = true;
-            this.lblGender.Location = new System.Drawing.Point(48, 327);
+            this.lblGender.Location = new System.Drawing.Point(55, 257);
             this.lblGender.Name = "lblGender";
             this.lblGender.Size = new System.Drawing.Size(49, 13);
             this.lblGender.TabIndex = 4;
@@ -94,21 +96,21 @@
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(129, 90);
+            this.txtLastName.Location = new System.Drawing.Point(136, 73);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(217, 20);
             this.txtLastName.TabIndex = 5;
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(129, 177);
+            this.txtFirstName.Location = new System.Drawing.Point(136, 129);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(217, 20);
             this.txtFirstName.TabIndex = 6;
             // 
             // txtMiddleName
             // 
-            this.txtMiddleName.Location = new System.Drawing.Point(129, 263);
+            this.txtMiddleName.Location = new System.Drawing.Point(136, 188);
             this.txtMiddleName.Name = "txtMiddleName";
             this.txtMiddleName.Size = new System.Drawing.Size(217, 20);
             this.txtMiddleName.TabIndex = 7;
@@ -116,7 +118,7 @@
             // rbMale
             // 
             this.rbMale.AutoSize = true;
-            this.rbMale.Location = new System.Drawing.Point(129, 327);
+            this.rbMale.Location = new System.Drawing.Point(136, 257);
             this.rbMale.Name = "rbMale";
             this.rbMale.Size = new System.Drawing.Size(48, 17);
             this.rbMale.TabIndex = 8;
@@ -127,7 +129,7 @@
             // rbFemale
             // 
             this.rbFemale.AutoSize = true;
-            this.rbFemale.Location = new System.Drawing.Point(196, 327);
+            this.rbFemale.Location = new System.Drawing.Point(203, 257);
             this.rbFemale.Name = "rbFemale";
             this.rbFemale.Size = new System.Drawing.Size(59, 17);
             this.rbFemale.TabIndex = 9;
@@ -138,7 +140,7 @@
             // cmbDay
             // 
             this.cmbDay.FormattingEnabled = true;
-            this.cmbDay.Location = new System.Drawing.Point(56, 397);
+            this.cmbDay.Location = new System.Drawing.Point(63, 345);
             this.cmbDay.Name = "cmbDay";
             this.cmbDay.Size = new System.Drawing.Size(121, 21);
             this.cmbDay.TabIndex = 10;
@@ -147,7 +149,7 @@
             // cmbYear
             // 
             this.cmbYear.FormattingEnabled = true;
-            this.cmbYear.Location = new System.Drawing.Point(312, 397);
+            this.cmbYear.Location = new System.Drawing.Point(319, 345);
             this.cmbYear.Name = "cmbYear";
             this.cmbYear.Size = new System.Drawing.Size(121, 21);
             this.cmbYear.TabIndex = 11;
@@ -156,7 +158,7 @@
             // cmbMonth
             // 
             this.cmbMonth.FormattingEnabled = true;
-            this.cmbMonth.Location = new System.Drawing.Point(185, 397);
+            this.cmbMonth.Location = new System.Drawing.Point(192, 345);
             this.cmbMonth.Name = "cmbMonth";
             this.cmbMonth.Size = new System.Drawing.Size(121, 21);
             this.cmbMonth.TabIndex = 12;
@@ -165,7 +167,7 @@
             // lblDateOfBirth
             // 
             this.lblDateOfBirth.AutoSize = true;
-            this.lblDateOfBirth.Location = new System.Drawing.Point(48, 365);
+            this.lblDateOfBirth.Location = new System.Drawing.Point(55, 313);
             this.lblDateOfBirth.Name = "lblDateOfBirth";
             this.lblDateOfBirth.Size = new System.Drawing.Size(73, 13);
             this.lblDateOfBirth.TabIndex = 13;
@@ -184,12 +186,32 @@
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
+            // lblProgram
+            // 
+            this.lblProgram.AutoSize = true;
+            this.lblProgram.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProgram.Location = new System.Drawing.Point(55, 385);
+            this.lblProgram.Name = "lblProgram";
+            this.lblProgram.Size = new System.Drawing.Size(93, 13);
+            this.lblProgram.TabIndex = 15;
+            this.lblProgram.Text = "Program to apply *";
+            // 
+            // cmbProgram
+            // 
+            this.cmbProgram.FormattingEnabled = true;
+            this.cmbProgram.Location = new System.Drawing.Point(58, 411);
+            this.cmbProgram.Name = "cmbProgram";
+            this.cmbProgram.Size = new System.Drawing.Size(382, 21);
+            this.cmbProgram.TabIndex = 16;
+            // 
             // frmStudentRegistration
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::StudentRegistrationApplication.Properties.Resources.Test;
             this.ClientSize = new System.Drawing.Size(464, 511);
+            this.Controls.Add(this.cmbProgram);
+            this.Controls.Add(this.lblProgram);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.lblDateOfBirth);
             this.Controls.Add(this.cmbMonth);
@@ -232,6 +254,8 @@
         private System.Windows.Forms.Label lblDateOfBirth;
         private System.Windows.Forms.Button btnRegister;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label lblProgram;
+        private System.Windows.Forms.ComboBox cmbProgram;
     }
 }
 

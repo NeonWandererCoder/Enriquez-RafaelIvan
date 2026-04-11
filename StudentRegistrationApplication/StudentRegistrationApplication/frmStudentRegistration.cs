@@ -103,11 +103,11 @@ namespace StudentRegistrationApplication
         }
 
         // Overloaded Method 3: Displays first and last name and gets program from combo box (1 parameter)
-        private void DisplayInfo(string name)
+        private void DisplayInfo(string firstLastName)
         {
             string program = cmbProgram.SelectedItem.ToString();
 
-            string message = "Student name: " + txtLastName.Text + " " +txtFirstName.Text +" \n"
+            string message = "Student name: " + firstLastName + " \n"
                            + "Program: " + program;
 
             MessageBox.Show(message);
@@ -199,12 +199,13 @@ namespace StudentRegistrationApplication
 
             // Build the full name and date of birth
             string fullName = txtFirstName.Text + " " + txtMiddleName.Text + " " + txtLastName.Text;
+            string firstLastName = txtFirstName.Text + " " + txtLastName.Text;
             string dateOfBirth = day + "/" + month + "/" + year;
 
             // Invoke the 3 overloaded methods - each shows a different message box
             DisplayInfo(fullName, gender, dateOfBirth, program);  // Method 1: 4 parameters
             DisplayInfo(fullName, program);                        // Method 2: 2 parameters
-            DisplayInfo(fullName);                                 // Method 3: 1 parameter
+            DisplayInfo(firstLastName);                                 // Method 3: 1 parameter
         }
     }
 }

@@ -1,0 +1,10 @@
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\bin\Debug\Enriquez_StudentGradeAnalyze.exe.config
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\bin\Debug\Enriquez_StudentGradeAnalyze.exe
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\bin\Debug\Enriquez_StudentGradeAnalyze.pdb
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\obj\Debug\Enriquez_StudentGradeAnalyze.csproj.AssemblyReference.cache
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\obj\Debug\Enriquez_StudentGradeAnalyzer.frmStudentGradeAnalyzer.resources
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\obj\Debug\Enriquez_StudentGradeAnalyze.Properties.Resources.resources
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\obj\Debug\Enriquez_StudentGradeAnalyze.csproj.GenerateResource.cache
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\obj\Debug\Enriquez_StudentGradeAnalyze.csproj.CoreCompileInputs.cache
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\obj\Debug\Enriquez_StudentGradeAnalyze.exe
+C:\Users\enriquez.287395\source\repos\Enriquez_StudentGradeAnalyze\Enriquez_StudentGradeAnalyze\obj\Debug\Enriquez_StudentGradeAnalyze.pdb

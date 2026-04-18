@@ -1,0 +1,10 @@
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\bin\Debug\StudentInfoApplication.exe.config
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\bin\Debug\StudentInfoApplication.exe
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\bin\Debug\StudentInfoApplication.pdb
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\obj\Debug\StudentInfoApplication.csproj.AssemblyReference.cache
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\obj\Debug\StudentInfoApplication.Properties.Resources.resources
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\obj\Debug\StudentInfoApplication.csproj.GenerateResource.cache
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\obj\Debug\StudentInfoApplication.csproj.CoreCompileInputs.cache
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\obj\Debug\StudentInfoApplication.exe
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\obj\Debug\StudentInfoApplication.pdb
+C:\Users\enriquez.287395\source\repos\StudentInfoApplication\StudentInfoApplication\obj\Debug\StudentInfoApplication.frmStudentInfo.resources

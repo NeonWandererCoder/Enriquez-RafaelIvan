@@ -1,0 +1,9 @@
+C:\Users\enriquez.287395\source\repos\Activity10Application\Activity10Application\bin\Debug\Activity10Application.exe.config
+C:\Users\enriquez.287395\source\repos\Activity10Application\Activity10Application\bin\Debug\Activity10Application.exe
+C:\Users\enriquez.287395\source\repos\Activity10Application\Activity10Application\bin\Debug\Activity10Application.pdb
+C:\Users\enriquez.287395\source\repos\Activity10Application\Activity10Application\obj\Debug\Activity10Application.csproj.AssemblyReference.cache
+C:\Users\enriquez.287395\source\repos\Activity10Application\Activity10Application\obj\Debug\Activity10Application.Properties.Resources.resources
+C:\Users\enriquez.287395\source\repos\Activity10Application\Activity10Application\obj\Debug\Activity10Application.csproj.GenerateResource.cache
+C:\Users\enriquez.287395\source\repos\Activity10Application\Activity10Application\obj\Debug\Activity10Application.csproj.CoreCompileInputs.cache
+C:\Users\enriquez.287395\source\repos\Activity10Application\Activity10Application\obj\Debug\Activity10Application.exe
+C:\Users\enriquez.287395\source\repos\Activity10Application\Activity10Application\obj\Debug\Activity10Application.pdb

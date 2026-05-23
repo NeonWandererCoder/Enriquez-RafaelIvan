@@ -62,8 +62,15 @@ namespace Activity10Application
         // Logout button - go back to login form
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            frmLogin loginForm = new frmLogin();
-            loginForm.Show();
+            // Show the existing hidden login form instead of creating a new one
+            foreach (Form form in Application.OpenForms)
+            {
+                if (form is frmLogin)
+                {
+                    form.Show();
+                    break;
+                }
+            }
             this.Close();
         }
 

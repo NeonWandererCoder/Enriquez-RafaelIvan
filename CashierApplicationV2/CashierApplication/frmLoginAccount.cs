@@ -7,7 +7,7 @@ namespace CashierApplication
     public partial class frmLoginAccount : Form
     {
         // Create a Cashier object with hardcoded credentials
-        private Cashier cashier = new Cashier("Clarisa Castro", "Finance", "cashier101", "pass1234");
+        private Cashier cashier = new Cashier("Nirma Nora", "Finance", "cashier101", "pass1234");
 
         // Track failed login attempts
         private int failedAttempts = 0;

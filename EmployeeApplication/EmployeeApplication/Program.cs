@@ -16,7 +16,7 @@ namespace EmployeeApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmEmployeeDatabase());
+            Application.Run(new frmComputeSalary());
         }
     }
 }
